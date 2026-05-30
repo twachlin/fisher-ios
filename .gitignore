@@ -1,0 +1,29 @@
+# Xcode user data
+*.xcuserstate
+**/xcuserdata/
+
+# Build products
+build/
+DerivedData/
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# App distribution artifacts
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# macOS files
+.DS_Store
